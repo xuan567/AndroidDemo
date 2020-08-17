@@ -79,7 +79,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for(App app:appList){
             Log.d("MainActivity","id is "+app.getId());
             Log.d("MainActivity","name is "+app.getName());
-            Log.d("MainActivity","version is"+app.getVersion());
+            Log.d("MainActivity","version is "+app.getVersion());
+
         }
     }
 
